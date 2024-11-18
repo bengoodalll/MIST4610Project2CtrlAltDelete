@@ -447,7 +447,7 @@ GROUP BY Family_Account.Family_Name
 ORDER BY Total_Revenue DESC;
 
 #Query number two
-# For each user who has watched a movie after January 1, 2024, what is their first name, last name, 
+# For each user who has watched a movie after March 1, 2023, what is their first name, last name, 
 # the total number of distinct movies on their watchlist, their average review score (only for users 
 # with an average score of 4 or higher), and their most recent subscription type?
   
