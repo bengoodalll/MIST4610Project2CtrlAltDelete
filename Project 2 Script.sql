@@ -450,37 +450,37 @@ ORDER BY Total_Revenue DESC;
 # For each user who has watched a movie after January 1, 2024, what is their first name, last name, 
 # the total number of distinct movies on their watchlist, their average review score (only for users 
 # with an average score of 4 or higher), and their most recent subscription type?
-
-select 
+  
+SELECT 
     User.idUser,
     User.First_Name,
     User.Last_Name,
-    count(distinct Watch_History.Movie_idMovie) as Total_Watchlist,
-    avg(Reviews.Score) as Average_Review_Score,
-    Subscription_Plan.Type as Subscription_Type
-from 
+    COUNT(DISTINCT Watch_List.Movie_idMovie) AS Total_Watchlist,
+    AVG(Reviews.Score) AS Average_Review_Score,
+    Subscription_Plan.Type AS Subscription_Type
+FROM 
     User
-join 
-    Watch_List on User.idUser = Watch_List.User_idUser
-join 
-    Reviews on User.idUser = Reviews.User_idUser
-Join 
-    Subscription_Plan on Subscription_Plan.idSubscription_Plan = (
-        select Payment.Subscription_Plan_idSubscription_Plan 
-        from Payment
-        where Payment.User_idUser = User.idUser 
-        order by Payment.Date desc 
-        limit 1
+JOIN 
+    Watch_List ON User.idUser = Watch_List.User_idUser
+JOIN 
+    Reviews ON User.idUser = Reviews.User_idUser
+JOIN 
+    Subscription_Plan ON Subscription_Plan.idSubscription_Plan = (
+        SELECT Payment.Subscription_Plan_idSubscription_Plan 
+        FROM Payment
+        WHERE Payment.User_idUser = User.idUser 
+        ORDER BY Payment.Date DESC 
+        LIMIT 1
     )
-where 
-    User.idUser in (
-        select distinct User_idUser 
-        from Watch_History 
-        where Date_watched > '2024-01-01'
+WHERE 
+    User.idUser IN (
+        SELECT DISTINCT Watch_History.User_idUser 
+        FROM Watch_History 
+        WHERE Watch_History.Date_watched > '2024-01-01'
     )
-group by 
+GROUP BY 
     User.idUser, User.First_Name, User.Last_Name, Subscription_Plan.Type
-having 
-    avg(r.Score) >= 4
-order by 
-    Average_Review_Score desc;
+HAVING 
+    AVG(Reviews.Score) >= 4
+ORDER BY 
+    Average_Review_Score DESC;
