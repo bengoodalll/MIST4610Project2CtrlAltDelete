@@ -237,3 +237,18 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+#query number one
+SELECT Family_Account.Family_Name, SUM(Revenue) AS Total_Revenue
+FROM Family_Account
+JOIN (
+    SELECT User.Family_Account_idFamily_Account, SUM(Subscription_Plan.Price) AS Revenue
+    FROM User 
+    JOIN Payment ON User.idUser = Payment.User_idUser
+    JOIN Subscription_Plan ON 
+    Payment.Subscription_Plan_idSubscription_Plan = Subscription_Plan.idSubscription_Plan
+    GROUP BY User.Family_Account_idFamily_Account
+) AS RevenuePerFamily ON Family_Account.idFamily_Account = RevenuePerFamily.Family_Account_idFamily_Account
+GROUP BY Family_Account.Family_Name
+ORDER BY Total_Revenue DESC;
