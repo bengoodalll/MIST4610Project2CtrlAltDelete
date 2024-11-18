@@ -476,7 +476,7 @@ WHERE
     User.idUser IN (
         SELECT DISTINCT Watch_History.User_idUser 
         FROM Watch_History 
-        WHERE Watch_History.Date_watched > '2024-01-01'
+        WHERE Watch_History.Date_watched > '2023-03-01'
     )
 GROUP BY 
     User.idUser, User.First_Name, User.Last_Name, Subscription_Plan.Type
