@@ -522,4 +522,12 @@ where
 order by 
     Total_Movies_Watched desc;
 
+# Query 3 total number of movies watched by each user
+
+select First_Name, Last_Name, COUNT(Watch_History.Movie_idMovie) as Total_Movies_Watched
+from User
+left join Watch_History on User.idUser = Watch_History.User_idUser
+group by User.idUser
+order by Total_Movies_Watched DESC;
+
 
