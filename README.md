@@ -18,6 +18,6 @@ Ctrl+Alt+Elite
 
 ## Queries:
 
-## Tableau Visualizations
+## Tableau Visualizations:
 
-## Database Information 
+## Database Information: 
