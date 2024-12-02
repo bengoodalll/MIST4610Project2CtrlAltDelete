@@ -26,7 +26,7 @@ Our model integrates user activity, feedback, and account information to create 
 Query 1 lists the total number of movies watched by each user, shown by the users first and last name. The results are in descending order.
 <img width="726" alt="Screenshot 2024-12-02 at 3 31 16 PM" src="https://github.com/user-attachments/assets/08611030-713c-48f3-9610-46399176ed01">
 <img width="279" alt="Screenshot 2024-12-02 at 3 31 55 PM" src="https://github.com/user-attachments/assets/4a197acc-a948-4f4c-984a-e94b09bf2df7">
-Query 1 may be beneficial to management in realizing user engagement and identifying the most and least active users. If management can pinpoint users with low levels of activity, they can target these users specifically with direct marketing efforts and provide incentives that will increase engagement. 
+Query 1 may be beneficial to management in realizing user engagement and identifying the most and least active users. If management can pinpoint users with low levels of activity, they can target these users specifically with direct marketing efforts and provide incentives that will increase engagement. On the other hand, identifying users with high levels of activity will help direct the kind of content the platform should be streaming to keep these users satisfied.
 
 ## Tableau Visualizations:
 
