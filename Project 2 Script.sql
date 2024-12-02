@@ -484,3 +484,42 @@ HAVING
     AVG(Reviews.Score) >= 4
 ORDER BY 
     Average_Review_Score DESC;
+
+
+# Query number three
+# Which users have watched recent movies (released after 2020), what are their favorite genres, 
+# and what subscription plans are they using?
+
+select 
+    User.idUser,
+    User.First_Name as First_Name,
+    User.Last_Name as Last_Name,
+    (select count(*) 
+     from Watch_History 
+     where Watch_History.User_idUser = User.idUser) as Total_Movies_Watched,
+    (select Genre.Name 
+     from Genre 
+     join User_Preferences on Genre.idGenre = User_Preferences.Genre_idGenre 
+     where User_Preferences.User_idUser = User.idUser 
+     limit 1) as Favorite_Genre,
+    Subscription_Plan.Type as Subscription_Type
+from 
+    User
+join 
+    Payment on User.idUser = Payment.User_idUser
+join 
+    Subscription_Plan on Payment.Subscription_Plan_idSubscription_Plan = Subscription_Plan.idSubscription_Plan
+where 
+    User.idUser in (
+        select User_idUser 
+        from Watch_History 
+        where Movie_idMovie in (
+            select idMovie 
+            from Movie 
+            where Release_year > 2020
+        )
+    )
+order by 
+    Total_Movies_Watched desc;
+
+
