@@ -35,5 +35,7 @@ Query 5 lists the ratings for each movie genre in the database.
 Query 5 will be beneficial to management because it can give them an idea of what genres people enjoy the most to put more money into the production of those genres of movies.
 
 ## Tableau Visualizations:
+The first Tableau visualization answers the question, "What are the customer ratings for the movies on the platform?". 
+
 
 ## Database Information: 
