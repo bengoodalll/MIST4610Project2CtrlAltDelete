@@ -13,6 +13,7 @@ Ctrl+Alt+Elite
 ## Scenario Description:
 
 ## Data Model:
+<img width="864" alt="Screenshot 2024-11-18 at 3 40 24 PM" src="https://github.com/user-attachments/assets/2d578b4a-c2e4-4545-ac31-7499b223523b">
 
 ## Data Dictionary:
 
