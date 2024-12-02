@@ -522,12 +522,27 @@ where
 order by 
     Total_Movies_Watched desc;
 
-# Query 3 total number of movies watched by each user
+# Query 4 total number of movies watched by each user
 
 select First_Name, Last_Name, COUNT(Watch_History.Movie_idMovie) as Total_Movies_Watched
 from User
 left join Watch_History on User.idUser = Watch_History.User_idUser
 group by User.idUser
 order by Total_Movies_Watched DESC;
+
+#Query 5 average rating of genres
+SELECT 
+    Genre.Name AS Genre_Name,
+    AVG(Reviews.Score) AS Average_Rating
+FROM 
+    Reviews
+JOIN 
+    Movie ON Reviews.Movie_idMovie = Movie.idMovie
+JOIN 
+    Genre ON Movie.Genre_idGenre = Genre.idGenre
+GROUP BY 
+    Genre.Name
+ORDER BY 
+    Average_Rating DESC;
 
 
