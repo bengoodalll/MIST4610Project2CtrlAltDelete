@@ -24,6 +24,15 @@ This model showcases how management for a movie streaming platform manages users
 ## Data Dictionary:
 <img width="711" alt="Screenshot 2024-12-02 at 5 52 47 PM" src="https://github.com/user-attachments/assets/0f15489f-8ebe-49fa-b974-096b7bc1791c">
 <img width="733" alt="Screenshot 2024-12-02 at 5 53 02 PM" src="https://github.com/user-attachments/assets/5b933dd7-1860-4e61-af5d-bc9a1ae0e5ed">
+<img width="732" alt="Screenshot 2024-12-02 at 5 54 23 PM" src="https://github.com/user-attachments/assets/8103a819-a0b2-4706-8424-b7bb63a2909c">
+<img width="716" alt="Screenshot 2024-12-02 at 5 54 40 PM" src="https://github.com/user-attachments/assets/4d663eda-0a57-425b-9661-6f395c418ab0">
+<img width="718" alt="Screenshot 2024-12-02 at 5 55 00 PM" src="https://github.com/user-attachments/assets/9aad357a-eda8-4915-80eb-f6071e288065">
+<img width="720" alt="Screenshot 2024-12-02 at 5 55 16 PM" src="https://github.com/user-attachments/assets/8461a192-9de1-464c-b7dc-fe62c498c677">
+<img width="729" alt="Screenshot 2024-12-02 at 5 55 34 PM" src="https://github.com/user-attachments/assets/09bb53d7-4d7f-43ba-b61c-4276711b88e8">
+<img width="703" alt="Screenshot 2024-12-02 at 5 55 49 PM" src="https://github.com/user-attachments/assets/ef9901f6-93a8-4437-96d4-734f413ab261">
+<img width="705" alt="Screenshot 2024-12-02 at 5 56 05 PM" src="https://github.com/user-attachments/assets/77a9a749-83b7-46c7-a1c6-bf408ffefcb7">
+<img width="708" alt="Screenshot 2024-12-02 at 5 56 19 PM" src="https://github.com/user-attachments/assets/037ab8c9-cf0e-4f62-94b8-7d1f57166a67">
+<img width="712" alt="Screenshot 2024-12-02 at 5 56 34 PM" src="https://github.com/user-attachments/assets/98735558-19f6-427b-874f-69c9dd3ce9c5">
 
 
 
