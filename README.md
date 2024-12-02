@@ -22,6 +22,10 @@ Our model integrates user activity, feedback, and account information to create 
 This model showcases how management for a movie streaming platform manages users, family accounts, subscription plans, and movie content. It tracks user activities such as watch history, genre preferences, reviews, and saved watch lists, while also associating devices with a user within a family account. The model also shows how payments are completed based on different subscription tiers, which vary in price based on the type of subscription a user is signed up for.
 
 ## Data Dictionary:
+<img width="711" alt="Screenshot 2024-12-02 at 5 52 47 PM" src="https://github.com/user-attachments/assets/0f15489f-8ebe-49fa-b974-096b7bc1791c">
+<img width="733" alt="Screenshot 2024-12-02 at 5 53 02 PM" src="https://github.com/user-attachments/assets/5b933dd7-1860-4e61-af5d-bc9a1ae0e5ed">
+
+
 
 ## Queries:
 Query 1 lists the total number of movies watched by each user, shown by the users first and last name. The results are in descending order.
