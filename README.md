@@ -1,9 +1,9 @@
 # MIST4610 Project 2 
 
-## Team Name
+## Team Name:
 Ctrl+Alt+Elite
 
-## Team Members
+## Team Members:
 1. Julia Shanahan [@juliashanahan](https://github.com/juliashanahan)
 2. Ben Goodall [@bengoodalll](https://github.com/bengoodalll)
 3. Kira Mennella [@kiramennella](https://github.com/kiramennella)
