@@ -37,5 +37,7 @@ Query 5 will be beneficial to management because it can give them an idea of wha
 ## Tableau Visualizations:
 The first Tableau visualization answers the question, "What are the customer ratings for the movies on the platform?". 
 
+This Tableau graph can be helpful to management because many streaming platforms are constantly updating their catalogs, so this helps show management which movies they should keep as they are higher-rated and which lower-rated movies they should remove in certain age ratings. Then, if they remove a lower-rated PG-13 movie, then they can be on the look out for another PG-13 movie that they can replace the movie with. 
 
+The second Tableau visualization answers the question, "".
 ## Database Information: 
