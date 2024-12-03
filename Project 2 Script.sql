@@ -387,6 +387,28 @@ INSERT INTO `cs_bag15552`.`Reviews` (`User_idUser`, `Movie_idMovie`, `Score`, `C
 (10, 19, 5, 'Perfect for family viewing!'),
 (10, 20, 5, 'An inspiring sports story.');
 
+INSERT INTO `cs_bag15552`.`Device` (`idDevice`, `User_idUser`, `Type`, `Last_access_date`, `OS`) VALUES
+(1, 1, 'Mobile', '2023-01-01', 'Android'),
+(2, 1, 'Desktop', '2023-01-05', 'Windows'),
+(3, 2, 'Tablet', '2023-01-10', 'iOS'),
+(4, 2, 'Mobile', '2023-01-15', 'Android'),
+(5, 3, 'Smart TV', '2023-02-01', 'Roku OS'),
+(6, 3, 'Desktop', '2023-02-07', 'MacOS'),
+(7, 4, 'Mobile', '2023-02-15', 'iOS'),
+(8, 4, 'Smart TV', '2023-02-20', 'Android TV'),
+(9, 5, 'Tablet', '2023-03-01', 'iOS'),
+(10, 5, 'Desktop', '2023-03-10', 'Windows'),
+(11, 6, 'Mobile', '2023-03-20', 'Android'),
+(12, 6, 'Smart TV', '2023-03-25', 'Roku OS'),
+(13, 7, 'Tablet', '2023-04-01', 'Android'),
+(14, 7, 'Desktop', '2023-04-07', 'MacOS'),
+(15, 8, 'Mobile', '2023-04-15', 'iOS'),
+(16, 8, 'Smart TV', '2023-04-20', 'Android TV'),
+(17, 9, 'Tablet', '2023-05-01', 'iOS'),
+(18, 9, 'Desktop', '2023-05-05', 'Windows'),
+(19, 10, 'Mobile', '2023-05-15', 'Android'),
+(20, 10, 'Smart TV', '2023-05-20', 'Roku OS');
+
 INSERT INTO `cs_bag15552`.`User_Preferences` (`User_idUser`, `Genre_idGenre`) VALUES
 (1, 1),
 (1, 6),
