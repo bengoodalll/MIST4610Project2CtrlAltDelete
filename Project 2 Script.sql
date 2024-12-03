@@ -537,8 +537,6 @@ where
     )
 order by 
     Total_Movies_Watched desc;
-
-# Query 4 total number of movies watched by each user
   
 -- TP_Q4
 SELECT Family_Account.Family_Name, SUM(Revenue) AS Total_Revenue
