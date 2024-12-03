@@ -19,6 +19,7 @@ Our model integrates user activity, feedback, and account information to create 
 
 ## Data Model:
 <img width="864" alt="Screenshot 2024-11-18 at 3 40 24 PM" src="https://github.com/user-attachments/assets/2d578b4a-c2e4-4545-ac31-7499b223523b">
+
 This model showcases how management for a movie streaming platform manages users, family accounts, subscription plans, and movie content. It tracks user activities such as watch history, genre preferences, reviews, and saved watch lists, while also associating devices with a user within a family account. The model also shows how payments are completed based on different subscription tiers, which vary in price based on the type of subscription a user is signed up for.
 
 ## Data Dictionary:
