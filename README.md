@@ -50,7 +50,7 @@ Query 1 may be beneficial to management because it gives them insight into which
 
 Query 2 lists for each user who has watched a movie after March 1, 2023, what is their first name, last name, the total number of distinct movies on their watchlist, their average review score (only for users with an average score of 4 or higher), and their most recent subscription type?
 
-![2A740B99-C9F1-4DEC-A589-27EE0E16716D](https://github.com/user-attachments/assets/ccc4a286-1cfb-40b2-83a6-6b32ed425200)
+![A6B44F95-7012-42B2-9658-C7A5733D854D](https://github.com/user-attachments/assets/cd813d9a-c365-41a4-9d64-2ac663efea16)
 ![5C136328-DC42-4DAD-960C-E5C28C906F57_4_5005_c](https://github.com/user-attachments/assets/8d981ce4-d4ff-468d-ac87-08c6ee505d9e)
 
 
