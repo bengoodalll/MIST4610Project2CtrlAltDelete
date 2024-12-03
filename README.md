@@ -61,6 +61,14 @@ Query 3 is important to management because it provides valuable insights into us
 
 ---
 
+Query 4 lists the total revenue for each family by subscription plans<img width="593" alt="Screenshot 2024-12-03 at 1 30 44 PM" src="https://github.com/user-attachments/assets/13f33a47-4714-4bc5-94e2-ff19370e866d">
+<img width="169" alt="Screenshot 2024-12-03 at 1 31 22 PM" src="https://github.com/user-attachments/assets/12f7ebc0-57a4-4cd3-8b5e-5eb6a7dd56bc">
+
+
+
+
+---
+
 Query 5 lists the ratings for each movie genre in the database. 
 
 <img width="430" alt="Screenshot 2024-12-02 at 3 55 14 PM" src="https://github.com/user-attachments/assets/cf33bed7-c754-4ad4-9863-f6beb358018a">
