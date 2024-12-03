@@ -39,11 +39,12 @@ This model showcases how management for a movie streaming platform manages users
 
 ## Queries:
 
-Query 1 lists the total number of movies watched by each user, shown by the users first and last name. The results are in descending order.
+Query 1 lists the total number of distinct users with each type of subscription plan.
 
-<img width="726" alt="Screenshot 2024-12-02 at 3 31 16 PM" src="https://github.com/user-attachments/assets/08611030-713c-48f3-9610-46399176ed01">
-<img width="279" alt="Screenshot 2024-12-02 at 3 31 55 PM" src="https://github.com/user-attachments/assets/4a197acc-a948-4f4c-984a-e94b09bf2df7">
-Query 1 may be beneficial to management in realizing user engagement and identifying the most and least active users. If management can pinpoint users with low levels of activity, they can target these users specifically with direct marketing efforts and provide incentives that will increase engagement. On the other hand, identifying users with high levels of activity will help direct the kind of content the platform should be streaming to keep these users satisfied.
+<img width="850" alt="Screenshot 2024-12-03 at 12 48 08 PM" src="https://github.com/user-attachments/assets/f5d95b5a-2f43-49c8-9b5b-fc4a63c235ef">
+<img width="199" alt="Screenshot 2024-12-03 at 12 48 38 PM" src="https://github.com/user-attachments/assets/4c6e4328-7689-4ae6-8c0d-d56a8faf7a64">
+
+Query 1 may be beneficial to management because it gives them insight into which subscription plans are more or less popular, which helps them understand customer preferences. This will allow them to focus on promoting the more popular subscription plans to new customers, as well as reevalutaing the less popular plans.
 
 ---
 
