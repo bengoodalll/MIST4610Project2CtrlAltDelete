@@ -134,5 +134,5 @@ The third Tableau visualization answers the questions, "How much revenue does ea
 This Tableau graph can be helpful to management because it visually shows the month to month breakdown of the total revenue by each tier of subscription. With the bar graph having three different colors that represent the basic, premium, and standard subcription type, it is clear to see which one is making the most revenue in a given month. Managers can use these stats to potentially redirect marketing efforts for one tier if they see that their is a lack of growth in one area. This help also to see where management should utilize their resources if they see that one area is growing exponentially over another. 
 
 ## Database Information: 
-
+Database: cs_bag15552
 
