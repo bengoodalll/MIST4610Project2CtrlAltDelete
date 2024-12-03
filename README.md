@@ -20,7 +20,32 @@ Our model integrates user activity, feedback, and account information to create 
 ## Data Model:
 <img width="864" alt="Screenshot 2024-11-18 at 3 40 24 PM" src="https://github.com/user-attachments/assets/2d578b4a-c2e4-4545-ac31-7499b223523b">
 
-This model showcases how management for a movie streaming platform manages users, family accounts, subscription plans, and movie content. It tracks user activities such as watch history, genre preferences, reviews, and saved watch lists, while also associating devices with a user within a family account. The model also shows how payments are completed based on different subscription tiers, which vary in price based on the type of subscription a user is signed up for.
+The Family Account table indicates the family groups that have been registered in the platform. Each family account has a unique ID associated with a family name. A family account comprises multiple users, thus creating a one to many user relationship with the User table.
+
+The User table stores personal information relating to the individual user in terms of names, emails, and login credentials. Each user belongs to just one family account but acts independently. The platform offers various functionalities to users, such as making watchlists, leaving reviews, and finally watching movies. It connects users to many other entities such as:
+	•	A one-to-many relationship with the Watch_List table, where a user can save multiple movies they desire to watch.
+	•	A one-to-many relationship with the Device table, which tracks the devices by which users access the platform.
+	•	A one-to-many relationship with the Reviews table, where users are able to leave reviews and ratings for each movie they watch.
+
+The Watch_History table gives a history of all the movies watched and the date the movie was viewed by a user. The table will have a many-to-one relationship with both the User and Movie tables, as many users can watch a single movie.
+
+The Movie table has all movies which are covered in the entire catalog of movies in that platform. Each movie carries a unique ID, as well as details like title, year of release, duration, language, and age rating in its definition. Movies are classified according to genres which are assigned to each movie, having a many-to-one relationship with their Genres table. Further: 
+	•	Movies can occur in many watchlists from many users creating a one-to-many relationship with the Watch_List table. 
+	•	Movies can have many reviews from different users, creating a one-to-many relationship with the Reviews table. 
+
+There is a Genre table that classifies movies. Each genre will have an ID and Name and Description. There can be more movies under a single genre, but each movie can belong to only one genre.
+
+A Watch_List table keeps all movies saved by the users which they have yet to watch. Each record in the table keeps one user linked to a movie making this a many-to-one relation on both User and Movie tables.
+
+The Reviews table saves user feedback about movies which consist of ratings and optional comments. Each of the reviews creates a link between the user and the movie forming many to on relations with both the User and Movie tables.
+
+Devices are those used by the users of the platform to access it. They include smartphones, tablets, or smart TVs. A device belongs to a user, thus creating a many-to-one link with the user table. This is to describe device characteristics, such as operating system and last access date.
+
+This Payment table keeps track of all subscription payments done by the users. Each payment links to one user and one subscription plan, establishing a many-to-one relationship with both User and Subscription_Plan tables. It also contains information like payment amount, date, and method (credit card, PayPal, etc.).
+
+Subscription_Plan holds information on the different subscription levels available on the platform, plan type (e.g., Basic, Standard, Premium), price, and resolution. In this case, each can have multiple users related to it whereby one payment relates to many.
+
+The User_Preferences table keeps track of the genres preferred by a user. This table combines users with genres through a many-to-many relationship to make recommendations better and improve user experience.
 
 ## Data Dictionary:
 <img width="711" alt="Screenshot 2024-12-02 at 5 52 47 PM" src="https://github.com/user-attachments/assets/0f15489f-8ebe-49fa-b974-096b7bc1791c">
