@@ -54,7 +54,7 @@ Query 2 will be beneficial to management because it will provide insight into us
 ---
 
 Query 3 lists which users have watched recent movies (released after 2020), what are their favorite genres, and what subscription plans are they using?
-
+![3EA670CC-779F-457C-A994-1E1B19E28D15](https://github.com/user-attachments/assets/c75ef64a-eb02-4f3d-abff-bdebf51868a8)
 Query 3 is important to management because it provides valuable insights into user behavior and preferences, helping businesses make data-driven decisions. It can help with things such as content strategy, targeted marketing, helping identify genre preferences, and can help let businesses know how users are using their subscriptions.
 
 
