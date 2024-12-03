@@ -454,7 +454,7 @@ INSERT INTO `cs_bag15552`.`Watch_List` (`User_idUser`, `Movie_idMovie`) VALUES
 (10, 3);
 
 
-#query number one
+-- TP_Q1
 SELECT Family_Account.Family_Name, SUM(Revenue) AS Total_Revenue
 FROM Family_Account
 JOIN (
@@ -468,7 +468,7 @@ JOIN (
 GROUP BY Family_Account.Family_Name
 ORDER BY Total_Revenue DESC;
 
-#Query number two
+-- TP_Q2
 # For each user who has watched a movie after March 1, 2023, what is their first name, last name, 
 # the total number of distinct movies on their watchlist, their average review score (only for users 
 # with an average score of 4 or higher), and their most recent subscription type?
@@ -508,7 +508,7 @@ ORDER BY
     Average_Review_Score DESC;
 
 
-# Query number three
+-- TP_Q3
 # Which users have watched recent movies (released after 2020), what are their favorite genres, 
 # and what subscription plans are they using?
 
@@ -545,7 +545,7 @@ order by
     Total_Movies_Watched desc;
 
 # Query 4 total number of movies watched by each user
-
+-- TP_Q4
 select First_Name, Last_Name, COUNT(Watch_History.Movie_idMovie) as Total_Movies_Watched
 from User
 left join Watch_History on User.idUser = Watch_History.User_idUser
@@ -553,6 +553,7 @@ group by User.idUser
 order by Total_Movies_Watched DESC;
 
 #Query 5 average rating of genres
+-- TP_Q5
 SELECT 
     Genre.Name AS Genre_Name,
     AVG(Reviews.Score) AS Average_Rating
