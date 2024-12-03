@@ -455,18 +455,12 @@ INSERT INTO `cs_bag15552`.`Watch_List` (`User_idUser`, `Movie_idMovie`) VALUES
 
 
 -- TP_Q1
-SELECT Family_Account.Family_Name, SUM(Revenue) AS Total_Revenue
-FROM Family_Account
-JOIN (
-    SELECT User.Family_Account_idFamily_Account, SUM(Subscription_Plan.Price) AS Revenue
-    FROM User 
-    JOIN Payment ON User.idUser = Payment.User_idUser
-    JOIN Subscription_Plan ON 
-    Payment.Subscription_Plan_idSubscription_Plan = Subscription_Plan.idSubscription_Plan
-    GROUP BY User.Family_Account_idFamily_Account
-) AS RevenuePerFamily ON Family_Account.idFamily_Account = RevenuePerFamily.Family_Account_idFamily_Account
-GROUP BY Family_Account.Family_Name
-ORDER BY Total_Revenue DESC;
+select Type as Subscription_Type, COUNT(distinct idUser) as Total_Users
+from Subscription_Plan
+left join Payment ON Subscription_Plan.idSubscription_Plan = Payment.Subscription_Plan_idSubscription_Plan
+left join User on Payment.User_idUser = User.idUser
+group by Type
+order by Total_Users DESC;
 
 -- TP_Q2
 # For each user who has watched a movie after March 1, 2023, what is their first name, last name, 
@@ -545,12 +539,20 @@ order by
     Total_Movies_Watched desc;
 
 # Query 4 total number of movies watched by each user
+  
 -- TP_Q4
-select First_Name, Last_Name, COUNT(Watch_History.Movie_idMovie) as Total_Movies_Watched
-from User
-left join Watch_History on User.idUser = Watch_History.User_idUser
-group by User.idUser
-order by Total_Movies_Watched DESC;
+SELECT Family_Account.Family_Name, SUM(Revenue) AS Total_Revenue
+FROM Family_Account
+JOIN (
+    SELECT User.Family_Account_idFamily_Account, SUM(Subscription_Plan.Price) AS Revenue
+    FROM User 
+    JOIN Payment ON User.idUser = Payment.User_idUser
+    JOIN Subscription_Plan ON 
+    Payment.Subscription_Plan_idSubscription_Plan = Subscription_Plan.idSubscription_Plan
+    GROUP BY User.Family_Account_idFamily_Account
+) AS RevenuePerFamily ON Family_Account.idFamily_Account = RevenuePerFamily.Family_Account_idFamily_Account
+GROUP BY Family_Account.Family_Name
+ORDER BY Total_Revenue DESC;
 
 #Query 5 average rating of genres
 -- TP_Q5
