@@ -72,5 +72,10 @@ The first Tableau visualization answers the question, "What are the customer rat
 <img width="1183" alt="Screenshot 2024-12-02 at 5 38 28 PM" src="https://github.com/user-attachments/assets/ee2eb664-956e-4946-b9a7-40a152da22b7">
 This Tableau graph can be helpful to management because many streaming platforms are constantly updating their catalogs, so this helps show management which movies they should keep as they are higher-rated and which lower-rated movies they should remove in certain age ratings. Then, if they remove a lower-rated PG-13 movie, then they can be on the look out for another PG-13 movie that they can replace the movie with. 
 
-The second Tableau visualization answers the question, "".
+The second Tableau visualization answers the question, "What type of membership and payment type does each user have?".
+<img width="365" alt="Screenshot 2024-12-03 at 1 15 28 AM" src="https://github.com/user-attachments/assets/75e7d8c7-2191-4eb3-841b-162cceb37060">
+This Tableau graph can be helpful to management because it is very important to know the financial information of each user on streaming platform. By having each user be organized by their payment type and what their level of membership is on the steaming platform, they are able to more clearly organize and plan. Management will kow exactly how much money they should be receiving per month from each payment type and they can allocate more customer service to which payment type is more popular. As well, this can help fraud detection and risk mitgation if there is a different amount our payment being used then what is on file. 
+
+The third Tableau visualization answers the questions, "
 ## Database Information: 
+
