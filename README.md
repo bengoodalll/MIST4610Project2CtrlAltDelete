@@ -33,8 +33,10 @@ The User table stores personal information relating to the individual user in te
 The Watch_History table gives a history of all the movies watched and the date the movie was viewed by a user. The table will have a many-to-one relationship with both the User and Movie tables, as many users can watch a single movie.
 
 The Movie table has all movies which are covered in the entire catalog of movies in that platform. Each movie carries a unique ID, as well as details like title, year of release, duration, language, and age rating in its definition. Movies are classified according to genres which are assigned to each movie, having a many-to-one relationship with their Genres table. Further: 
-	•	Movies can occur in many watchlists from many users creating a one-to-many relationship with the Watch_List table. 
-	•	Movies can have many reviews from different users, creating a one-to-many relationship with the Reviews table. 
+	
+ •	Movies can occur in many watchlists from many users creating a one-to-many relationship with the Watch_List table. 
+	
+ •	Movies can have many reviews from different users, creating a one-to-many relationship with the Reviews table. 
 
 There is a Genre table that classifies movies. Each genre will have an ID and Name and Description. There can be more movies under a single genre, but each movie can belong to only one genre.
 
