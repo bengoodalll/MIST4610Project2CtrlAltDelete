@@ -69,15 +69,21 @@ Query 5 will be beneficial to management because it can give them an idea of wha
 
 ## Tableau Visualizations:
 The first Tableau visualization answers the question, "What are the customer ratings for the movies on the platform?". 
+
 <img width="1183" alt="Screenshot 2024-12-02 at 5 38 28 PM" src="https://github.com/user-attachments/assets/ee2eb664-956e-4946-b9a7-40a152da22b7">
+
 This Tableau graph can be helpful to management because many streaming platforms are constantly updating their catalogs, so this helps show management which movies they should keep as they are higher-rated and which lower-rated movies they should remove in certain age ratings. Then, if they remove a lower-rated PG-13 movie, then they can be on the look out for another PG-13 movie that they can replace the movie with. 
 
 The second Tableau visualization answers the question, "What type of membership and payment type does each user have?".
+
 <img width="365" alt="Screenshot 2024-12-03 at 1 15 28 AM" src="https://github.com/user-attachments/assets/75e7d8c7-2191-4eb3-841b-162cceb37060">
+
 This Tableau graph can be helpful to management because it is very important to know the financial information of each user on streaming platform. By having each user be organized by their payment type and what their level of membership is on the steaming platform, they are able to more clearly organize and plan. Management will kow exactly how much money they should be receiving per month from each payment type and they can allocate more customer service to which payment type is more popular. As well, this can help fraud detection and risk mitgation if there is a different amount our payment being used then what is on file. 
 
 The third Tableau visualization answers the questions, "How much revenue does each tier of subscription bring in per month?".
+
 <img width="559" alt="Screenshot 2024-12-03 at 2 50 51 AM" src="https://github.com/user-attachments/assets/087c1e55-daa7-46d2-addd-078901cf4c59">
+
 This Tableau graph can be helpful to management because it visually shows the month to month breakdown of the total revenue by each tier of subscription. With the bar graph having three different colors that represent the basic, premium, and standard subcription type, it is clear to see which one is making the most revenue in a given month. Managers can use these stats to potentially redirect marketing efforts for one tier if they see that their is a lack of growth in one area. This help also to see where management should utilize their resources if they see that one area is growing exponentially over another. 
 
 ## Database Information: 
