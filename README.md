@@ -135,4 +135,4 @@ This Tableau graph can be helpful to management because it visually shows the mo
 
 ## Database Information: 
 Database: cs_bag15552
-
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
