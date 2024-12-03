@@ -23,9 +23,12 @@ Our model integrates user activity, feedback, and account information to create 
 The Family Account table indicates the family groups that have been registered in the platform. Each family account has a unique ID associated with a family name. A family account comprises multiple users, thus creating a one to many user relationship with the User table.
 
 The User table stores personal information relating to the individual user in terms of names, emails, and login credentials. Each user belongs to just one family account but acts independently. The platform offers various functionalities to users, such as making watchlists, leaving reviews, and finally watching movies. It connects users to many other entities such as:
-	•	A one-to-many relationship with the Watch_List table, where a user can save multiple movies they desire to watch.
-	•	A one-to-many relationship with the Device table, which tracks the devices by which users access the platform.
-	•	A one-to-many relationship with the Reviews table, where users are able to leave reviews and ratings for each movie they watch.
+
+•	A one-to-many relationship with the Watch_List table, where a user can save multiple movies they desire to watch.
+
+•	A one-to-many relationship with the Device table, which tracks the devices by which users access the platform.
+
+•	A one-to-many relationship with the Reviews table, where users are able to leave reviews and ratings for each movie they watch.
 
 The Watch_History table gives a history of all the movies watched and the date the movie was viewed by a user. The table will have a many-to-one relationship with both the User and Movie tables, as many users can watch a single movie.
 
