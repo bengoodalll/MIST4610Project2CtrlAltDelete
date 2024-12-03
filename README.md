@@ -69,6 +69,9 @@ The User_Preferences table keeps track of the genres preferred by a user. This t
 
 ## Queries:
 
+<img width="653" alt="Screenshot 2024-12-03 at 2 57 33 PM" src="https://github.com/user-attachments/assets/4444b25f-4f21-4c96-8e6a-d9c9ffba0827">
+
+
 Query 1 lists the total number of distinct users with each type of subscription plan.
 
 <img width="850" alt="Screenshot 2024-12-03 at 12 48 08 PM" src="https://github.com/user-attachments/assets/f5d95b5a-2f43-49c8-9b5b-fc4a63c235ef">
@@ -104,7 +107,6 @@ Query 4 lists the total revenue for each family by subscription plans<img width=
 Query 4 will be beneficial to maganagement because it will allow them to see which family accounts are generating the most revenue for them and it will allow them to improve customer retention and also see which subscription plans are giving them the most revenue.
 
 
-
 ---
 
 Query 5 lists the ratings for each movie genre in the database. 
@@ -135,4 +137,5 @@ This Tableau graph can be helpful to management because it visually shows the mo
 
 ## Database Information: 
 Database: cs_bag15552
+
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
