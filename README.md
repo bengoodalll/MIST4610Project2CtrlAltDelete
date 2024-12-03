@@ -43,8 +43,10 @@ Query 1 lists the total number of movies watched by each user, shown by the user
 Query 1 may be beneficial to management in realizing user engagement and identifying the most and least active users. If management can pinpoint users with low levels of activity, they can target these users specifically with direct marketing efforts and provide incentives that will increase engagement. On the other hand, identifying users with high levels of activity will help direct the kind of content the platform should be streaming to keep these users satisfied.
 
 Query 5 lists the ratings for each movie genre in the database. 
+
 <img width="430" alt="Screenshot 2024-12-02 at 3 55 14 PM" src="https://github.com/user-attachments/assets/cf33bed7-c754-4ad4-9863-f6beb358018a">
 <img width="174" alt="Screenshot 2024-12-02 at 3 55 26 PM" src="https://github.com/user-attachments/assets/c7d1123b-7c36-4aac-b012-5da6e56e2020">
+
 Query 5 will be beneficial to management because it can give them an idea of what genres people enjoy the most to put more money into the production of those genres of movies.
 
 ## Tableau Visualizations:
