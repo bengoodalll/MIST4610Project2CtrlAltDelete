@@ -49,15 +49,19 @@ Query 1 may be beneficial to management because it gives them insight into which
 ---
 
 Query 2 lists for each user who has watched a movie after March 1, 2023, what is their first name, last name, the total number of distinct movies on their watchlist, their average review score (only for users with an average score of 4 or higher), and their most recent subscription type?
+
 ![B96A5376-CC5A-4D66-88D0-74BB98B5E98F](https://github.com/user-attachments/assets/f5a63729-2c80-4b22-9e3b-3eb08063154b)
-Query 2 will be beneficial to management because it will provide insight into user preferences, and help with market segmentation by user. It will also show subscription trends and watch history analytics. Some instances where management would utilize this information are for target marketing, strategizing subsciption types, or content strategy.
+
+Query 2 will be beneficial to management because it will provide insights, helping businesses make data-driven decisions. For example, it shows user preferences, and help with market segmentation by user. It will also show subscription trends and watch history analytics. Some instances where management would utilize this information are for target marketing, strategizing subsciption types, or content strategy.
 
 ---
 
-Query 3 lists which users have watched recent movies (released after 2020), what are their favorite genres, and what subscription plans are they using?
-![3EA670CC-779F-457C-A994-1E1B19E28D15](https://github.com/user-attachments/assets/c75ef64a-eb02-4f3d-abff-bdebf51868a8)
-Query 3 is important to management because it provides valuable insights into user behavior and preferences, helping businesses make data-driven decisions. It can help with things such as content strategy, targeted marketing, helping identify genre preferences, and can help let businesses know how users are using their subscriptions.
+Query 3 lists which users have spent the most time watching movies, what subscription plans do they use, and which genre do they watch the most?
 
+![3A08E0E7-912D-48A2-93C2-4D9F744A94F6](https://github.com/user-attachments/assets/766671d5-26c4-4327-b0c4-00e148963873)
+![8584F9DC-9BFC-4E37-9825-F3F023A5C9BD](https://github.com/user-attachments/assets/656f68fe-8733-4f9d-944c-9fd9bed29fb8)
+
+Query 3 will be beneficial to management because it focuses on understanding user engagement based on watch time. It also provides insights into which genre is the most watched, can identify highly engaged users, and can help manage subscription plan types.
 
 ---
 
