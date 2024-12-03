@@ -76,6 +76,10 @@ The second Tableau visualization answers the question, "What type of membership 
 <img width="365" alt="Screenshot 2024-12-03 at 1 15 28 AM" src="https://github.com/user-attachments/assets/75e7d8c7-2191-4eb3-841b-162cceb37060">
 This Tableau graph can be helpful to management because it is very important to know the financial information of each user on streaming platform. By having each user be organized by their payment type and what their level of membership is on the steaming platform, they are able to more clearly organize and plan. Management will kow exactly how much money they should be receiving per month from each payment type and they can allocate more customer service to which payment type is more popular. As well, this can help fraud detection and risk mitgation if there is a different amount our payment being used then what is on file. 
 
-The third Tableau visualization answers the questions, "
+The third Tableau visualization answers the questions, "How much revenue does each tier of subscription bring in per month?".
+<img width="559" alt="Screenshot 2024-12-03 at 2 50 51 AM" src="https://github.com/user-attachments/assets/087c1e55-daa7-46d2-addd-078901cf4c59">
+This Tableau graph can be helpful to management because it visually shows the month to month breakdown of the total revenue by each tier of subscription. With the bar graph having three different colors that represent the basic, premium, and standard subcription type, it is clear to see which one is making the most revenue in a given month. Managers can use these stats to potentially redirect marketing efforts for one tier if they see that their is a lack of growth in one area. This help also to see where management should utilize their resources if they see that one area is growing exponentially over another. 
+
 ## Database Information: 
+
 
