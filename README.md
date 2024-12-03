@@ -50,7 +50,9 @@ Query 1 may be beneficial to management because it gives them insight into which
 
 Query 2 lists for each user who has watched a movie after March 1, 2023, what is their first name, last name, the total number of distinct movies on their watchlist, their average review score (only for users with an average score of 4 or higher), and their most recent subscription type?
 
-![B96A5376-CC5A-4D66-88D0-74BB98B5E98F](https://github.com/user-attachments/assets/f5a63729-2c80-4b22-9e3b-3eb08063154b)
+![2A740B99-C9F1-4DEC-A589-27EE0E16716D](https://github.com/user-attachments/assets/ccc4a286-1cfb-40b2-83a6-6b32ed425200)
+![5C136328-DC42-4DAD-960C-E5C28C906F57_4_5005_c](https://github.com/user-attachments/assets/8d981ce4-d4ff-468d-ac87-08c6ee505d9e)
+
 
 Query 2 will be beneficial to management because it will provide insights, helping businesses make data-driven decisions. For example, it shows user preferences, and help with market segmentation by user. It will also show subscription trends and watch history analytics. Some instances where management would utilize this information are for target marketing, strategizing subsciption types, or content strategy.
 
